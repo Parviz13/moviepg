@@ -37,7 +37,7 @@ console.log(sort);// Movies names has sorted
 
 
 
-let ad = document.querySelector('.promo__adv')
+let ad = Document.querySelectorAll('.promo__adv img')
 
 function deleteADS() {
   ad.style.display = "none"
@@ -63,7 +63,7 @@ let element = document.querySelectorAll('.promo__interactive-item');
       let bg = document.querySelector('#bg')
     
       function changeBgImg(){
-          bg.style.backgroundImage = "url('../img/bg.jpg')";
+          bg.style.backgroundImage = "url('./img/bg.jpg')";
       }
       
       changeBgImg();// Change Background
